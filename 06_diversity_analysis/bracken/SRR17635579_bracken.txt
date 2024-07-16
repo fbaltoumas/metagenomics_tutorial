@@ -1,0 +1,25 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Bifidobacterium breve	1685	S	43966	6394	50360	0.52001
+Bifidobacterium longum	216816	S	228	95	323	0.00334
+Bifidobacterium scardovii	158787	S	14	0	14	0.00014
+Gardnerella vaginalis	2702	S	37	0	37	0.00038
+Corynebacterium kefirresidentii	1979527	S	11	0	11	0.00011
+Corynebacterium tuberculostearicum	38304	S	11	0	11	0.00011
+Streptococcus mitis	28037	S	994	66	1060	0.01095
+Streptococcus pneumoniae	1313	S	330	62	392	0.00405
+Streptococcus oralis	1303	S	188	15	203	0.00210
+Streptococcus agalactiae	1311	S	112	241	353	0.00364
+Streptococcus sp. 116-D4	2598453	S	25	1	26	0.00027
+Streptococcus sp. oral taxon 431	712633	S	10	0	10	0.00010
+Streptococcus pseudopneumoniae	257758	S	66	5	71	0.00073
+Streptococcus gwangjuense	1433513	S	59	4	63	0.00065
+Streptococcus toyakuensis	2819619	S	57	6	63	0.00065
+Streptococcus australis	113107	S	12	2	14	0.00014
+Limosilactobacillus fermentum	1613	S	19	1	20	0.00021
+Enterococcus faecalis	1351	S	17	4	21	0.00022
+Staphylococcus epidermidis	1282	S	715	41	756	0.00781
+Staphylococcus hominis	1290	S	74	5	79	0.00082
+Staphylococcus sp. NRL 22/194	3020908	S	33	0	33	0.00034
+Staphylococcus haemolyticus	1283	S	11	0	11	0.00011
+Ralstonia pickettii	329	S	76	4	80	0.00083
+Homo sapiens	9606	S	42788	36	42824	0.44219

@@ -1,0 +1,15 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Homo sapiens	9606	S	63202	42	63244	0.66318
+Lactobacillus jensenii	109790	S	20021	348	20369	0.21359
+Lactobacillus iners	147802	S	10053	34	10087	0.10577
+Lactobacillus gasseri	1596	S	677	404	1081	0.01134
+Lactobacillus helveticus	1587	S	24	5	29	0.00030
+Lactobacillus johnsonii	33959	S	15	0	15	0.00016
+Lactobacillus crispatus	47770	S	13	0	13	0.00014
+Lactobacillus kefiranofaciens	267818	S	10	2	12	0.00013
+Aerococcus christensenii	87541	S	11	0	11	0.00012
+Staphylococcus epidermidis	1282	S	14	0	14	0.00015
+Mageeibacillus indolicus	884684	S	11	0	11	0.00012
+Gardnerella vaginalis	2702	S	12	2	14	0.00015
+Corynebacterium jeikeium	38289	S	10	3	13	0.00014
+Klebsiella pneumoniae	573	S	130	317	447	0.00469

@@ -1,0 +1,22 @@
+# downloads
+fastq-dump -v -I -X 100000 SRR17635461
+gzip SRR17635461.gz
+# QC
+fastqc SRR17635534.fastq.gz
+# trimming
+bbduk.sh in=../01_input_reads/SRR17635534.fastq.gz out=SRR17635534_trimmed.fastq.gz ktrim=r ref=../adapters.fa k=23 mink=11 hdist=1 tpe tbo threads=8
+# decontamination
+bbduk.sh in=../03_trimmed_reads/SRR17635460_trimmed.fastq.gz out=SRR17635460_decontaminated.fastq.gz ref=../sequencing_artifacts.fa.gz threads=8
+#taxonomy kraken2
+kraken2 --threads 24 --db kraken2/ --output SRR17635579_k2_output.txt --report SRR17635460_k2_report SRR17635460_decontaminated.fastq.gz
+#abundances bracken
+bracken -d ~/kraken2/ -i SRR17635534_k2_report.txt -o SRR17635534_bracken.txt
+#calculate diversities
+
+#remove human reads
+~/KrakenTools/extract_kraken_reads.py -s ../../04_decontamination/SRR17635579_decontaminated.fastq.gz -t 9606 --exclude -k ../../05_kraken2/outputs/SRR17635579_k2_output.txt --fastq-output -o SRR176355579_nohuman.fastq
+gzip *fastq
+#contig assembly megahit
+megahit --k-list 23,43,63,83,103,123 --continue -r ../04_decontamination/SRR17635460_decontaminated.fastq.gz -o SRR17635460_megahit -t 8 -m 0.60
+#protein detection prodigal
+prodigal -i ../02_megahit/SRR17635579_megahit.fa -o SRR17635579.txt -a SRR17635579_proteins.fasta -p meta

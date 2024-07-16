@@ -1,0 +1,25 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Lactobacillus jensenii	109790	S	39955	647	40602	0.43305
+Lactobacillus iners	147802	S	21331	87	21418	0.22844
+Lactobacillus gasseri	1596	S	1305	705	2010	0.02144
+Lactobacillus helveticus	1587	S	52	14	66	0.00070
+Lactobacillus johnsonii	33959	S	31	5	36	0.00038
+Lactobacillus crispatus	47770	S	19	0	19	0.00020
+Limosilactobacillus vaginalis	1633	S	156	2	158	0.00169
+Aerococcus christensenii	87541	S	38	0	38	0.00041
+Enterococcus faecalis	1351	S	15	2	17	0.00018
+Staphylococcus epidermidis	1282	S	58	0	58	0.00062
+Staphylococcus hominis	1290	S	13	3	16	0.00017
+Staphylococcus haemolyticus	1283	S	11	0	11	0.00012
+Mageeibacillus indolicus	884684	S	20	0	20	0.00021
+Corynebacterium tuberculostearicum	38304	S	61	0	61	0.00065
+Corynebacterium jeikeium	38289	S	39	2	41	0.00044
+Corynebacterium aurimucosum	169292	S	12	0	12	0.00013
+Corynebacterium amycolatum	43765	S	11	4	15	0.00016
+Gardnerella vaginalis	2702	S	21	1	22	0.00023
+Gardnerella leopoldii	2792978	S	11	1	12	0.00013
+Bifidobacterium breve	1685	S	16	1	17	0.00018
+Bifidobacterium adolescentis	1680	S	10	1	11	0.00012
+Collinsella aerofaciens	74426	S	11	0	11	0.00012
+Prevotella copri	165179	S	47	1	48	0.00051
+Homo sapiens	9606	S	28990	40	29030	0.30962
